@@ -1,0 +1,35 @@
+v {xschem version=3.4.8RC file_version=1.2}
+G {}
+K {type=primitive
+format="@name @@I @@Z @VDD @VNW @VPW @VSS @prefix\\\\dlya_2"
+template="name=x1 VDD=VDD VNW=VNW VPW=VPW VSS=VSS prefix=gf180mcu_fd_sc_mcu7t5v0__ "
+extra="VDD VNW VPW VSS prefix"
+verilogprefix=gf180mcu_fd_sc_mcu7t5v0__
+highlight=true}
+V {}
+S {type=primitive
+format="@name @@I @@Z @VDD @VNW @VPW @VSS @prefix\\\\dlya_2"
+template="name=x1 VDD=VDD VNW=VNW VPW=VPW VSS=VSS prefix=gf180mcu_fd_sc_mcu7t5v0__ "
+extra="VDD VNW VPW VSS prefix"
+verilogprefix=gf180mcu_fd_sc_mcu7t5v0__
+highlight=true}
+F {}
+E {}
+L 4 60 -80 80 -80 {}
+L 4 80 -110 80 -80 {}
+L 4 80 -110 80 -80 {}
+L 4 80 -80 80 -50 {}
+L 4 80 -50 130 -80 {}
+L 4 80 -110 130 -80 {}
+L 4 90 -90 100 -90 {}
+L 4 100 -90 100 -80 {}
+L 4 100 -80 110 -80 {}
+L 4 130 -80 150 -80 {}
+B 5 57.5 -82.5 62.5 -77.5 {name=I
+dir=in}
+B 5 147.5 -82.5 152.5 -77.5 {name=Z
+dir=out}
+T {I} 50 -100 0 0 0.2 0.2 {}
+T {Z} 150 -100 0 0 0.2 0.2 {}
+T {@name} 110 -60 0 0 0.4 0.4 {}
+T {@symname} 100 -30 0 0 0.4 0.4 {}
